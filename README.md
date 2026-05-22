@@ -27,12 +27,3 @@ Projede kullanılan temel makine öğrenmesi mimarileri ve veri işleme adımlar
 * **Özellik Çıkarımı (Feature Extraction):** Veri setinden anlamlı özniteliklerin seçilmesi.
 * **Modelleme:** *(Buraya kullandığınız modelleri yazın: Örn. CNN, Random Forest, SVM vb.)*
 * **Değerlendirme (Evaluation):** Doğruluk (Accuracy), Hassasiyet (Precision), Duyarlılık (Recall) ve F1-Skoru metrikleri ile modelin performansı ölçülmüştür.
-
-## ⚙️ Kurulum ve Kullanım
-
-Projeyi kendi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
-
-1. **Depoyu klonlayın:**
-```bash
-   git clone [https://github.com/kullaniciadi/cancer-screening-ml-project.git](https://github.com/kullaniciadi/cancer-screening-ml-project.git)
-   cd cancer-screening-ml-project
