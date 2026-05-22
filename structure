@@ -1,0 +1,27 @@
+cancer-screening-ml-project/
+│
+├── .gitignore               # GitHub'a yüklenmeyecek dosyalar (örn: büyük veri setleri, sanal ortamlar)
+├── README.md                # Hazırladığımız o havalı, animasyonlu proje vitrini
+├── requirements.txt         # Projenin çalışması için gereken kütüphaneler (pandas, scikit-learn vb.)
+│
+├── data/                    # Veri Mimarlarının (Data Architects) Çalışma Alanı
+│   ├── raw/                 # Ham CDC BRFSS 2024 verisi (Çok büyükse .gitignore'a ekleyin)
+│   └── processed/           # KNN imputasyonu ve temizleme yapılmış, eğitime hazır veri [cite: 158, 167]
+│
+├── notebooks/               # Keşifsel Veri Analizi (EDA) ve Test Alanı
+│   ├── 01_data_cleaning.ipynb # Eksik değer atamaları ve gürültü temizleme [cite: 167]
+│   └── 02_exploratory_analysis.ipynb # Korelasyon matrisleri ve hedef değişken dağılımları [cite: 168]
+│
+├── src/                     # Makine Öğrenmesi Mühendislerinin (ML Engineers) Çalışma Alanı
+│   ├── data_loader.py       # Veriyi okuyan ve train/test olarak bölen script [cite: 169]
+│   ├── logistic_regression.py # Grubunuzun temel algoritması [cite: 23]
+│   ├── naive_bayes.py       # Grubunuzdan istenen Bayesyen Yaklaşım modeli [cite: 23]
+│   └── evaluation.py        # MSE, AUC, F1 ve Konfüzyon Matrisi hesaplayan fonksiyonlar 
+│
+├── docs/                    # Akademik Yazım ve Raporlama Ekibinin Çalışma Alanı
+│   ├── Grup7_Makale.docx    # KOÜ Cambria formatında, APA 7 atıflı nihai akademik rapor [cite: 179]
+│   └── etik_ve_sorumlu_yz.md # Demografik yanlılık ve Sorumlu YZ (Bias) analiz raporu [cite: 158, 197]
+│
+└── presentation/            # Etik ve Sunum Koordinatörlerinin Çalışma Alanı
+    ├── sunum_slaytlari.pdf  # Final sunumu için hazırlanan slaytlar [cite: 176]
+    └── proje_posteri.pdf    # Poster tasarımı [cite: 176]
