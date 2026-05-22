@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=26&pause=1000&color=007ACC&center=true&vCenter=true&width=800&lines=Cancer+Screening+ML+Project;Erken+Teşhis+İçin+Makine+Öğrenmesi;KOU+%7C+MCBÜ+%7C+Hitit+Üniversitesi" alt="Proje Başlığı Animasyonu" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=26&pause=1000&color=007ACC&center=true&vCenter=true&width=800&lines=Cancer+Screening+ML+Project;Erken+Teşhis+İçin+Makine+Öğrenmesi;KOÜ+%7C+MCBÜ+%7C+HİTÜ" alt="Proje Başlığı Animasyonu" />
   
   <p><b>Kocaeli Üniversitesi, Manisa Celal Bayar Üniversitesi ve Hitit Üniversitesi öğrencileri işbirliği ile geliştirilmiştir.</b></p>
 </div>
