@@ -1,64 +1,39 @@
-# cancer-screening-ml-project
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=26&pause=1000&color=007ACC&center=true&vCenter=true&width=800&lines=Cancer+Screening+ML+Project;Erken+Teşhis+İçin+Makine+Öğrenmesi;KOU+%7C+MCBÜ+%7C+Hitit+Üniversitesi" alt="Proje Başlığı Animasyonu" />
+  
+  <p><b>Kocaeli Üniversitesi, Manisa Celal Bayar Üniversitesi ve Hitit Üniversitesi öğrencileri işbirliği ile geliştirilmiştir.</b></p>
+</div>
 
-> Collaborative machine learning research for optimized cancer screening and early diagnosis.
-
-![GitHub stars](https://img.shields.io/github/stars/Grup7-Proje/cancer-screening-ml-project?style=for-the-badge&logo=github) ![GitHub forks](https://img.shields.io/github/forks/Grup7-Proje/cancer-screening-ml-project?style=for-the-badge&logo=github) ![GitHub issues](https://img.shields.io/github/issues/Grup7-Proje/cancer-screening-ml-project?style=for-the-badge&logo=github) ![Last commit](https://img.shields.io/github/last-commit/Grup7-Proje/cancer-screening-ml-project?style=for-the-badge&logo=github)
-
-## 📑 Table of Contents
-
-- [Description](#description)
-- [Key Features](#key-features)
-- [Use Cases](#use-cases)
-- [Quick Start](#quick-start)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-
-## 📝 Description
-
-The cancer-screening-ml-project is an academic, collaborative machine learning initiative developed by students from Kocaeli University, Manisa Celal Bayar University, and Hitit University. The project focuses on optimizing cancer screening and early detection processes through structured dataset analysis, aiming to minimize human error and provide an auxiliary decision-support mechanism for medical imaging and clinical data analysis.
-
-Built using Python, the workflow handles critical data processing steps including noise reduction, normalization, and missing data imputation. Feature extraction is performed to isolate key diagnostic attributes from target datasets, which are then used to train and evaluate models inside Jupyter notebook environments using Scikit-Learn and TensorFlow. Model performance is rigorously measured against standard validation metrics to ensure diagnostic reliability.
-
-## ✨ Key Features
-
-- **🧹 Data Preprocessing and Imputation** — Applies noise reduction, normalization, and missing data completion to prepare raw medical datasets for modeling.
-- **🧬 Targeted Feature Extraction** — Selects and isolates high-priority diagnostic features from clinical data to improve overall classifier performance.
-- **📊 Comprehensive Metric Evaluation** — Measures classifier success through detailed Accuracy, Precision, Recall, and F1-Score tracking.
-- **📓 Interactive Jupyter Notebooks** — Uses Jupyter environments to document steps, run experiments, and visualize data processing pipelines.
-
-## 🎯 Use Cases
-
-- Developing academic research baselines for machine learning applications in medical dataset screening.
-- Evaluating different preprocessing and classification strategies on clinical risk datasets using Scikit-Learn and TensorFlow.
-
-## ⚡ Quick Start
-
-```bash
-
-# 1. Clone the repository
-git clone https://github.com/Grup7-Proje/cancer-screening-ml-project.git
-
-# See the Development Setup section below
-```
-
-## 📁 Project Structure
-
-```
-.
-```
-
-## 👥 Contributing
-
-Contributions are welcome! Here's the standard flow:
-
-1. **Fork** the repository
-2. **Clone** your fork: `git clone https://github.com/Grup7-Proje/cancer-screening-ml-project.git`
-3. **Branch**: `git checkout -b feature/your-feature`
-4. **Commit**: `git commit -m 'feat: add some feature'`
-5. **Push**: `git push origin feature/your-feature`
-6. **Open** a pull request
-
-Please follow the existing code style and include tests for new behavior where applicable.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Machine_Learning-FF9900?style=for-the-badge" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/Artificial_Intelligence-007ACC?style=for-the-badge" alt="Artificial Intelligence" />
+  <img src="https://img.shields.io/badge/Academic_Research-4CAF50?style=for-the-badge" alt="Academic Research" />
+</p>
 
 ---
-*This README was generated with ❤️ by [ReadmeBuddy](https://readmebuddy.com)*
+
+## 📌 Proje Hakkında
+
+Bu proje, kanser taraması ve erken teşhis süreçlerini optimize etmek amacıyla geliştirilmiş bir makine öğrenmesi araştırmasıdır. Tıbbi görüntüleme ve veri seti analizlerinde insan hatasını en aza indirmek ve hekimler için güvenilir bir karar destek mekanizması sunmak hedeflenmektedir. 
+
+Üç farklı üniversitenin bilgi birikimi ve işbirliği ile disiplinlerarası bir akademik çalışma olarak hayata geçirilmiştir.
+
+## 🔬 Metodoloji
+
+Projede kullanılan temel araştırma adımları ve veri işleme süreçleri aşağıdaki gibidir:
+
+* **Veri Ön İşleme (Data Preprocessing):** Gürültü azaltma, normalizasyon ve eksik veri tamamlama.
+* **Özellik Çıkarımı (Feature Extraction):** Veri setinden tıbbi açıdan anlamlı özniteliklerin seçilmesi.
+* **Modelleme:** *(Buraya kullandığınız yaklaşımları yazın: Örn. Sınıflandırma algoritmaları, derin öğrenme mimarileri vb.)*
+* **Değerlendirme (Evaluation):** Doğruluk (Accuracy), Hassasiyet (Precision), Duyarlılık (Recall) ve F1-Skoru metrikleri ile modelin performansı istatistiksel olarak ölçülmüştür.
+
+## ⚙️ Kurulum ve Kullanım
+
+Projeyi kendi ortamınızda incelemek ve çalıştırmak için aşağıdaki adımları izleyin:
+
+1. **Depoyu klonlayın:**
+   
+```bash
+   git clone [https://github.com/kullaniciadi/cancer-screening-ml-project.git](https://github.com/kullaniciadi/cancer-screening-ml-project.git)
+   cd cancer-screening-ml-project
