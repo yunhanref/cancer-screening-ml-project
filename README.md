@@ -1,4 +1,5 @@
-<img width="736" height="887" alt="ataturk" src="https://github.com/user-attachments/assets/b7bea593-1722-445c-a728-cd339ef56de2" />
+<img width="480" height="320" alt="Flag_of_Turkey svg" src="https://github.com/user-attachments/assets/b6d7d025-553a-493b-acfd-4da2c655e417" />
+
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=26&pause=1000&color=007ACC&center=true&vCenter=true&width=800&lines=Cancer+Screening+ML+Project;Erken+Teşhis+İçin+Makine+Öğrenmesi;KOÜ+%7C+MCBÜ+%7C+HİTÜ" alt="Proje Başlığı Animasyonu" />
   
