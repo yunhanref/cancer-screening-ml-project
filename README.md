@@ -37,7 +37,7 @@ Tabular anket verilerinden anlamlı sonuçlar üretebilmek için aşağıdaki ve
    * Hedef değişkenin (kanser tanısı / tarama durumu) belirlenmesi ve sınıf dengesizliklerinin (SMOTE vb. yöntemlerle) giderilmesi.
 3. **Özellik Mühendisliği (Feature Engineering):** Kanser teşhisi ile en çok korelasyon gösteren demografik ve davranışsal özelliklerin (Örn: `_AGEG5YR`, `SMOKE100`, `CHCSCNCR`) seçilmesi.
 4. **Modelleme:** Tabular verilerde yüksek performans gösteren makine öğrenmesi algoritmalarının eğitilmesi:
-   * *XGBoost, Random Forest, Logistic Regression ve LightGBM*
+  
 5. **Değerlendirme (Evaluation):** Modeller; Doğruluk (Accuracy), Hassasiyet (Precision), Duyarlılık (Recall), F1-Skoru ve ROC-AUC metrikleri ile istatistiksel olarak ölçülmüş ve birbirleriyle kıyaslanmıştır.
 
 ---
