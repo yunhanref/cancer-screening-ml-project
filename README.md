@@ -1,3 +1,4 @@
+<img width="736" height="887" alt="ataturk" src="https://github.com/user-attachments/assets/b7bea593-1722-445c-a728-cd339ef56de2" />
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=26&pause=1000&color=007ACC&center=true&vCenter=true&width=800&lines=Cancer+Screening+ML+Project;Erken+Teşhis+İçin+Makine+Öğrenmesi;KOÜ+%7C+MCBÜ+%7C+HİTÜ" alt="Proje Başlığı Animasyonu" />
   
@@ -41,3 +42,4 @@ Tabular anket verilerinden anlamlı sonuçlar üretebilmek için aşağıdaki ve
 5. **Değerlendirme (Evaluation):** Modeller; Doğruluk (Accuracy), Hassasiyet (Precision), Duyarlılık (Recall), F1-Skoru ve ROC-AUC metrikleri ile istatistiksel olarak ölçülmüş ve birbirleriyle kıyaslanmıştır.
 
 ---
+<img width="736" height="887" alt="ataturk" src="https://github.com/user-attachments/assets/78fbb9f4-3472-43f3-b809-440d3070ed84" />
