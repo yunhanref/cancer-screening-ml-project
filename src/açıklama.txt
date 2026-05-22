@@ -1,0 +1,1 @@
+Makine öğrenmesi kısmında sorumlu olan arkadaşlar bitmiş modellerini buraya ekleyecekler.
