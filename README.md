@@ -40,18 +40,4 @@ Tabular anket verilerinden anlamlı sonuçlar üretebilmek için aşağıdaki ve
    * *XGBoost, Random Forest, Logistic Regression ve LightGBM*
 5. **Değerlendirme (Evaluation):** Modeller; Doğruluk (Accuracy), Hassasiyet (Precision), Duyarlılık (Recall), F1-Skoru ve ROC-AUC metrikleri ile istatistiksel olarak ölçülmüş ve birbirleriyle kıyaslanmıştır.
 
-## 📁 Proje Yapısı
-
-```text
-├── data/                  # Veri setleri klasörü (GitHub'a YÜKLENMEZ - .gitignore içindedir)
-│   ├── brfss2024.xpt      # Orijinal SAS verisi (Dış kaynaklardan indirilmelidir)
-│   └── processed_data.csv # Temizlenmiş veri
-├── notebooks/             # Veri analizi ve ön işleme adımlarını içeren Jupyter Not Defterleri
-│   ├── 01_data_loading_xpt.ipynb
-│   ├── 02_eda_and_cleaning.ipynb
-│   └── 03_model_training.ipynb
-├── src/                   # Yeniden kullanılabilir Python modülleri
-│   ├── data_loader.py     # SAS xpt okuma fonksiyonları
-│   └── evaluate.py        # Metrik hesaplama fonksiyonları
-├── requirements.txt       # Gerekli kütüphaneler
-└── README.md              # Proje dökümantasyonu
+---
