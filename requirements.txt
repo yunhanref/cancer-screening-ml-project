@@ -1,0 +1,7 @@
+**LİBRARİES**
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+imbalanced-learn
