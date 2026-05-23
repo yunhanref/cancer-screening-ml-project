@@ -1,1 +1,5 @@
-Kodlara buradan bakabilirsin. İyi çalışmalar.
+Kodlara buradan bakabilirsin.
+
+Temizlenmiş veri setini istiyorsan "1TEMİZLİK.py" dosyasını çalıştırman yeterli bir klasörde ama illa indireyim diyorsan bu repository'nin "data" isimli kısmına bak.
+
+İyi çalışmalar.
