@@ -3,3 +3,7 @@ Kodlara buradan bakabilirsin.
 Temizlenmiş veri setini istiyorsan "1TEMİZLİK.py" dosyasını çalıştırman yeterli bir klasörde ama illa indireyim diyorsan bu repository'nin "data" isimli kısmına bak.
 
 İyi çalışmalar.
+
+SEÇTİĞİM HEDEF DEĞİŞKEN (y) = CHCOCNC1 ()
+SEÇTİĞİM BAĞIMSIZ DEĞİŞKENLER (X'ler) = CHCSCNC1,EXERANY2,ASTHMA3,CHCKDNY2,HAVARTH4,CVDINFR4,PERSDOC3,SMOKE100,DIABETE4,EDUCA,INCOME3,_AGEG5YR,CHECKUP1,_BMI5CAT
+Not: Bağımsız değişkenlerin kansere yol açıp açmadığını bulmaya çalışıyoruz. Bu yüzden kansere yol açması olası bağımsız değişkenler seçmeye çalıştım. Eğer kendin incelemek, eklemek veya çıkarmak istersen CodeBook dosyasını incele.
