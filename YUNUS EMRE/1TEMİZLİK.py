@@ -31,7 +31,6 @@ BAGIMSIZ = [
     'INCOME3',
     'EDUCA',
     '_BMI5CAT',
-    'HADSIGM4',
 ]
 
 # Sadece bu kolonları alacağız ki veri setimiz küçülsün, hepsiyle uğraşmayalım
