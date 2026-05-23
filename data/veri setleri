@@ -1,7 +1,7 @@
 RESMİ SİTE: "https://www.cdc.gov/brfss/annual_data/annual_2024.html"
 RESMİ XPT DOSYASI İNDİRME LİNKİ: "https://www.cdc.gov/brfss/annual_data/2024/files/LLCP2024XPT.zip"
 
-TEMİZLENMİŞ VE .CSV FORMATINA GETİRİLMİŞ YENİ VERİ SETİ: "https://drive.google.com/drive/folders/11Nu_AFBRtFOtJS46QfPMJQNDw078Dhw8?usp=sharing"
+TEMİZLENMİŞ VE .CSV FORMATINA GETİRİLMİŞ YENİ VERİ SETİ: "https://drive.google.com/drive/folders/11Nu_AFBRtFOtJS46QfPMJQNDw078Dhw8?usp=drive_link"
 1) Konumuz olan "genel kanser teşhisi" ile alakalı olan toplam 15 bağımsız değişken (veri setinde sütun olarak görülebilir) belirlendi.
 2) Bağımsız ve hedef değişkenler içerisindeki gereksiz veri blokları (örn. veri yok/bilmiyorum/yanıt vermedi gibi...), pandas kütüphanesi yardımı ile, NaN olarak değiştirildi.
 3) Modelin "Evet/Hayır" yerine sayısal değerler üzerinden başarılı işlem yapabilmesi için 2,3,4... ile kodlanmış "Hayır" yanıtları 0'a dönüştürüldü. Kısaca tüm ikili (Evet/Hayır) değişkenler 1 ve 0 olarak yeniden ayarlandı.
