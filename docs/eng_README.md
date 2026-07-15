@@ -20,6 +20,25 @@
 
 This project is a machine learning research developed to optimize cancer screening, risk factor detection, and early diagnosis processes. By analyzing patients demographic information, lifestyle habits, and general health status, we predict whether individuals carry a risk of cancer or whether they will adhere to cancer screening programs.
 Brought to life as an interdisciplinary academic study through the knowledge and collaboration of three different universities, this project aims to provide a data-driven decision support mechanism for preventive medicine policies.
+
+## 👤 My Role & Contributions
+
+In this collaborative multi-university project, I served as the **Project Group Leader** and **Machine Learning Developer**. My primary focus was establishing the project infrastructure, preparing the foundational data, and developing the core predictive classification models.
+
+Here are my specific technical contributions to the Cancer Screening ML Project:
+
+* **Project Leadership:**
+    * Architected the GitHub repository structure, establishing the version control workflow and maintaining branch policies for the team.
+    * Coordinated task delegation and code reviews among student team members from Manisa Celal Bayar, Kocaeli, and Hitit Universities.
+* **Data Preprocessing & Feature Engineering:**
+    * Conducted exploratory **Codebook analysis** for feature selection, isolating critical clinical variables based on statistical relevance.
+    * Executed data cleaning pipelines to resolve missing values, handle outliers, and format the raw dataset for model ingestion.
+    * Implemented a stratified train/test data split to ensure unbiased evaluation, integrating my workflow with the data engineering team's pipeline.
+* **Machine Learning Model Development (Logistic Regression):**
+    * Developed and fine-tuned a Logistic Regression classifier, one of the three primary predictive models evaluated in this study.
+    * Configured model hyperparameters and threshold values to optimize for clinical detection contexts.
+
+
 ## Data Set: 2024 CDC BRFSS
 
 In our study, the **CDC (Centers for Disease Control and Prevention)** published [2024 BRFSS (Behavioral Risk Factor Surveillance System)](https://www.cdc.gov/brfss/index.html) dataset was used. 
