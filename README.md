@@ -15,6 +15,15 @@
 </p>
 
 ---
+## Proje Hakkında
+
+Bu proje, kanser taraması, risk faktörlerinin tespiti ve erken teşhis süreçlerini optimize etmek amacıyla geliştirilmiş bir makine öğrenmesi araştırmasıdır. Hastaların demografik bilgileri, yaşam tarzı alışkanlıkları ve genel sağlık durumlarına ilişkin veriler analiz edilerek, bireylerin kanser riski taşıyıp taşımadığı veya kanser tarama programlarına uyum gösterip göstermeyeceği tahmin edilmektedir.
+
+Üç farklı üniversitenin bilgi birikimi ve işbirliği ile disiplinlerarası bir akademik çalışma olarak hayata geçirilen bu proje, koruyucu hekimlik politikaları için veri odaklı bir karar destek mekanizması sunmayı hedeflemektedir.
+
+[English Documentation](https://github.com/Grup7-Proje/cancer-screening-ml-project/blob/main/docs/eng_README.md)
+
+---
 ## 👤 Rolüm ve Katkılarım
 
 Çoklu üniversite işbirliğine dayanan bu projede, Proje Grup Lideri ve Makine Öğrenmesi Geliştiricisi olarak görev aldım. Temel odak noktam proje altyapısını kurmak, temel verileri hazırlamak ve ana tahmine dayalı sınıflandırma modellerini geliştirmekti.
@@ -33,16 +42,6 @@ Kanser Tarama ML Projesine yaptığım spesifik teknik katkılar şunlardır:
 **Makine Öğrenmesi Modeli Geliştirme (Lojistik Regresyon):**
 * Bu çalışmada değerlendirilen üç temel tahmin modelinden biri olan Lojistik Regresyon sınıflandırıcısını geliştirdim ve modelin ince ayarlarını (fine-tuning) yaptım.
 * Modeli klinik tespit senaryoları için optimize edecek şekilde hiperparametreleri ve eşik (threshold) değerlerini yapılandırdım.
-## Proje Hakkında
-
-Bu proje, kanser taraması, risk faktörlerinin tespiti ve erken teşhis süreçlerini optimize etmek amacıyla geliştirilmiş bir makine öğrenmesi araştırmasıdır. Hastaların demografik bilgileri, yaşam tarzı alışkanlıkları ve genel sağlık durumlarına ilişkin veriler analiz edilerek, bireylerin kanser riski taşıyıp taşımadığı veya kanser tarama programlarına uyum gösterip göstermeyeceği tahmin edilmektedir.
-
-Üç farklı üniversitenin bilgi birikimi ve işbirliği ile disiplinlerarası bir akademik çalışma olarak hayata geçirilen bu proje, koruyucu hekimlik politikaları için veri odaklı bir karar destek mekanizması sunmayı hedeflemektedir.
-
-[English Documentation](https://github.com/Grup7-Proje/cancer-screening-ml-project/blob/main/docs/eng_README.md)
-
----
-
 ## Veri Seti: 2024 BRFSS (SAS Transport Format)
 
 Çalışmamızda **CDC (Centers for Disease Control and Prevention)** tarafından yayınlanan [2024 BRFSS (Behavioral Risk Factor Surveillance System](https://www.cdc.gov/brfss/index.html) veri seti kullanılmıştır. 
