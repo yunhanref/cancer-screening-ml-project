@@ -2,9 +2,9 @@
   <img width="2197" height="704" alt="CBU KOU HITU" src="https://github.com/user-attachments/assets/79f15f90-16a5-49cf-bae5-0252bfb0d502" />
 </div>
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=26&pause=1000&color=007ACC&center=true&vCenter=true&width=800&lines=Cancer+Screening+ML+Project;Erken+Teşhis+İçin+Makine+Öğrenmesi;MCBÜ+%7C+KOÜ+%7C+HİTÜ" alt="Proje Başlığı Animasyonu" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=26&pause=1000&color=007ACC&center=true&vCenter=true&width=800&lines=Cancer+Screening+ML+Project;Machine+Learning+For+Early+Diagnosis;MCBU+%7C+KOU+%7C+HİTU" alt="Project Header Animation" />
   
-  <p><b>Kocaeli Üniversitesi, Manisa Celal Bayar Üniversitesi ve Hitit Üniversitesi öğrencileri işbirliği ile geliştirilmiştir.</b></p>
+  <p><b>Developed by the students of Kocaeli, Manisa Celal Bayar and Hitit universities.</b></p>
 </div>
 
 <p align="center">
@@ -15,114 +15,110 @@
 </p>
 
 ---
-## Proje Hakkında
 
-Bu proje, kanser taraması, risk faktörlerinin tespiti ve erken teşhis süreçlerini optimize etmek amacıyla geliştirilmiş bir makine öğrenmesi araştırmasıdır. Hastaların demografik bilgileri, yaşam tarzı alışkanlıkları ve genel sağlık durumlarına ilişkin veriler analiz edilerek, bireylerin kanser riski taşıyıp taşımadığı veya kanser tarama programlarına uyum gösterip göstermeyeceği tahmin edilmektedir.
+## About the Project
 
-Üç farklı üniversitenin bilgi birikimi ve işbirliği ile disiplinlerarası bir akademik çalışma olarak hayata geçirilen bu proje, koruyucu hekimlik politikaları için veri odaklı bir karar destek mekanizması sunmayı hedeflemektedir.
+This project is a machine learning research developed to optimize cancer screening, risk factor detection, and early diagnosis processes. By analyzing patients demographic information, lifestyle habits, and general health status, we predict whether individuals carry a risk of cancer or whether they will adhere to cancer screening programs.
+Brought to life as an interdisciplinary academic study through the knowledge and collaboration of three different universities, this project aims to provide a data-driven decision support mechanism for preventive medicine policies.
 
-[English Documentation](https://github.com/Grup7-Proje/cancer-screening-ml-project/blob/main/docs/eng_README.md)
+[Turkish Documentation](https://github.com/yunhanref/cancer-screening-ml-project/blob/main/docs/TR_README.md)
 
----
-## 👤 Rolüm ve Katkılarım
+## 👤 My Role & Contributions
 
-Çoklu üniversite işbirliğine dayanan bu projede, Proje Grup Lideri ve Makine Öğrenmesi Geliştiricisi olarak görev aldım. Temel odak noktam proje altyapısını kurmak, temel verileri hazırlamak ve ana tahmine dayalı sınıflandırma modellerini geliştirmekti.
+In this collaborative multi-university project, I served as the **Project Group Leader** and **Machine Learning Developer**. My primary focus was establishing the project infrastructure, preparing the foundational data, and developing the core predictive classification models.
 
-Kanser Tarama ML Projesine yaptığım spesifik teknik katkılar şunlardır:
+Here are my specific technical contributions to the Cancer Screening ML Project:
 
-**Proje Liderliği:**
-* Tüm ekip için versiyon kontrol iş akışını ve branch (dal) politikalarını belirleyerek GitHub repository mimarisini tasarladım.
-* Manisa Celal Bayar, Kocaeli ve Hitit Üniversitelerindeki öğrenci takım arkadaşları arasında görev dağılımını ve kod incelemelerini (code review) koordine ettim.
+* **Project Leadership:**
+    * Architected the GitHub repository structure, establishing the version control workflow and maintaining branch policies for the team.
+    * Coordinated task delegation and code reviews among student team members from Manisa Celal Bayar, Kocaeli, and Hitit Universities.
+* **Data Preprocessing & Feature Engineering:**
+    * Conducted exploratory **Codebook analysis** for feature selection, isolating critical clinical variables based on statistical relevance.
+    * Executed data cleaning pipelines to resolve missing values, handle outliers, and format the raw dataset for model ingestion.
+    * Implemented a stratified train/test data split to ensure unbiased evaluation, integrating my workflow with the data engineering team's pipeline.
+* **Machine Learning Model Development (Logistic Regression):**
+    * Developed and fine-tuned a Logistic Regression classifier, one of the three primary predictive models evaluated in this study.
+    * Configured model hyperparameters and threshold values to optimize for clinical detection contexts.
 
-**Veri Ön İşleme ve Öznitelik Mühendisliği (Feature Engineering):**
-* İstatistiksel uygunluğa dayanarak kritik klinik değişkenleri izole etmek amacıyla, özellik seçimi (feature selection) için keşifsel Codebook analizi yürüttüm.
-* Eksik verileri gidermek, aykırı değerleri (outliers) ele almak ve ham veri setini modelin işleyebileceği formata getirmek için veri temizleme pipeline'larını yürüttüm.
-* Tarafsız bir değerlendirme sağlamak adına katmanlı (stratified) train/test veri ayrımını uyguladım ve kendi iş akışımı veri mühendisliği ekibinin pipeline'ı ile entegre ettim.
 
-**Makine Öğrenmesi Modeli Geliştirme (Lojistik Regresyon):**
-* Bu çalışmada değerlendirilen üç temel tahmin modelinden biri olan Lojistik Regresyon sınıflandırıcısını geliştirdim ve modelin ince ayarlarını (fine-tuning) yaptım.
-* Modeli klinik tespit senaryoları için optimize edecek şekilde hiperparametreleri ve eşik (threshold) değerlerini yapılandırdım.
-## Veri Seti: 2024 BRFSS (SAS Transport Format)
+## Data Set: 2024 CDC BRFSS
 
-Çalışmamızda **CDC (Centers for Disease Control and Prevention)** tarafından yayınlanan [2024 BRFSS (Behavioral Risk Factor Surveillance System](https://www.cdc.gov/brfss/index.html) veri seti kullanılmıştır. 
+In our study, the **CDC (Centers for Disease Control and Prevention)** published [2024 BRFSS (Behavioral Risk Factor Surveillance System)](https://www.cdc.gov/brfss/index.html) dataset was used. 
 
-* **İçerik:** 7. grubun konusu olan kanser araştırmaya göre başından sonuna kadar temizlenmiş veri setinde genel olarak pek çok kanser türleri, sigara/alkol tüketimi, fiziksel aktivite, kronik hastalık geçmişi ve sosyodemografik anket cevapları bulunmaktadır.
-* **Veri Boyutu:** Hem işlenmiş hem de orjinal veri setleri oldukça büyük hacimli olduğundan GitHub reposunda değil, grubumuzun drive adresinde barındırılmaktadır (Bkz. *data/drive.txt*).
+* **Content:** According to the cancer research topic of the 7th group, the dataset, which has been cleaned from start to finish, generally contains many cancer types, smoking/alcohol consumption, physical activity, chronic disease history, and sociodemographic survey responses.
+* **Data Size:** Since both the processed and original datasets are quite large in volume, they are not hosted on the GitHub repository but on our group's Google Drive address (See *data/drive.txt*).
 
----
+## Methodology
 
-## Metodoloji
+To produce meaningful results from tabular survey data, the following data science pipeline was followed:
 
-Tabular anket verilerinden anlamlı sonuçlar üretebilmek için aşağıdaki veri bilimi boru hattı (pipeline) izlenmiştir:
-
-1.  **Veri Hazırlığı:**  CDC BRFSS 2024 veri setinin [Codebook'u](https://www.cdc.gov/brfss/annual_data/2024/zip/codebook24_llcp-v2-508.zip), veri mimarlarınca detaylıca incelenmiş olup, proje konusu kapsamında ana ve bağımsız değişkenler üzerinde tartışılmıştır.
+1.  **Data Preparation:**  CDC BRFSS 2024 veri setinin [Codebook'u](https://www.cdc.gov/brfss/annual_data/2024/zip/codebook24_llcp-v2-508.zip), veri mimarlarınca detaylıca incelenmiş olup, proje konusu kapsamında ana ve bağımsız değişkenler üzerinde tartışılmıştır.
 <div align="center">
   <img width="885" height="488" alt="CHCOCNC1" src="https://github.com/user-attachments/assets/37263639-0a21-426e-8a13-092f0d1d697a" />
-  <p><small>resim 1.0 - Ana Değişken CHCOCNC1</small></p>
+  <p><small>img 1.0 - Main Variable CHCOCNC1</small></p>
   <img width="885" height="489" alt="SMOKE100" src="https://github.com/user-attachments/assets/5b574605-cd30-45c4-aadc-d14a90f1b7a6" />
-  <p><small>resim 2.0 - Yan Değişken Örn. SMOKE100</small></p>
+  <p><small>img 2.0 - Independent Variable Example SMOKE100</small></p>
 </div> 
 
-2. **Veri Ön İşleme (Data Preprocessing):**
-   * **Ana değişkenin belirlenmesi:** Konumuz olan kanser taramaya yönelik değişken seçimimiz için veri setinde geniş kitleye hitap eden ve potansiyel yan değişken verilerinin en çok korelasyon gösterebileceği verinin "CHCOCNC1" olduğuna kanaat getirdik.
-   * **Özellik Mühendisliği (Feature Engineering):** Genel kanser teşhisi ile en çok korelasyon gösteren demografik ve davranışsal özelliklerin (Örn: `_AGEG5YR`, `SMOKE100`, `CHCSCNCR`) seçilmesi.
-   * **Seçilen Ana ve Bağımlı Değişkenler:**
+2. **Data Preprocessing:**
+   * **Determining the main variable:** For the selection of variables directed at cancer screening, which is our topic, we concluded that "CHCOCNC1" is the variable that addresses a broad audience and where potential side variables could show the highest correlation.
+   * **Feature Engineering:** Selecting demographic and behavioral features (e.g., `_AGEG5YR`, `SMOKE100`, `CHCSCNCR`) that show the highest correlation with general cancer diagnosis.
+   * **Selected Main and Dependent Variables:**
    ```
-   Ana Değişkenler:
-   CHCOCNC1: Melanom veya herhangi bir kanser teşhisi konuldu mu? (30 kategori)
+   Main Variable:
+   CHCOCNC1: Have you ever been told you had melanoma or any other skin cancer? (30 categories)
 
-   Bağımsız Değişkenler:
-   CHCSCNC1: Cilt kanseri veya melanom teşhisi konuldu mu?
-   CHECKUP1: Rutin kontrolünüz için en son ne zaman doktora gittiniz?
-   _AGEG5YR: Kaç yaşınızdasınız? (14 kategori)
-   SMOKE100: Hayatınız boyunca en az 100 sigara içtniz mi?
-   DIABETE4: Daha önce diyabet teşhisi konuldu mu?
-   EXERANY2: Geçtiğimiz ay boyunca, işiniz hariç, fiziksel aktivite veya egzersiz yaptınız mı?
-   ASTHMA3:  Daha önce astım teşhisi konuldu mu?
-   CHCKDNY2: Size hiç Böbrek taşı, mesane enfeksiyonu veya idrar kaçırmak hariç böbrek hastalığı teşhisi konuldu mu?
-   HAVARTH4: Size hiç artrit, romatoid artrit, gut, lupus veya fibromiyalji gibi bir rahatsızlığınız olduğu söylendi mi?
-   CVDINFR4: Daha önce kalp krizi (miyokard enfarktüsü) geçirdiniz mi?
-   PERSDOC3: Bir veya bir grup doktorun kişisel sağlık sağlayıcınız olduğunu düşünüyor musunuz?
-   _RFHLTH:  Sağlık durum sorusu
-   INCOME3:  Tüm gelir kaynaklarınızdan gelen yllık geliriniz ne kadar? (11 kategori)
-   EDUCA:    Tamamladığınız en yüksek eğitim durumunuz nedir?
-   _BMI5CAT: Vücut Kitle Endeksiniz nedir? (4 categories of BMI)
+   Independent Variables:
+   CHCSCNC1: Have you ever been told you had skin cancer or melanoma?
+   CHECKUP1: About how long has it been since you last visited a doctor for a routine checkup?
+   _AGEG5YR: How old are you? (14 categories)
+   SMOKE100: Have you smoked at least 100 cigarettes in your entire life?
+   DIABETE4: Have you ever been told you have diabetes?
+   EXERANY2: During the past month, other than your regular job, did you participate in any physical activities or exercises?
+   ASTHMA3:  Have you ever been told you had asthma?
+   CHCKDNY2: Have you ever been told you had kidney disease, excluding kidney stones, bladder infections, or incontinence?
+   HAVARTH4: Have you ever been told you have some form of arthritis, rheumatoid arthritis, gout, lupus, or fibromyalgia?
+   CVDINFR4: Have you ever been told you had a heart attack (myocardial infarction)?
+   PERSDOC3: Do you have one or more persons you think of as your personal doctor or health care provider?
+   _RFHLTH:  Health status question
+   INCOME3:  What is your annual household income from all sources? (11 categories)
+   EDUCA:    What is the highest grade or year of school you completed?
+   _BMI5CAT: What is your Body Mass Index? (4 categories of BMI)
    ```
    
-3. **Veri Okuma ve Dönüştürme:**
-   * `.xpt` formatındaki verilerin Python ortamına aktarılması ve Pandas DataFrame formatına dönüştürülmesi.
-   * BRFSS özelindeki "Bilmiyorum/Reddedildi" (bkz. resim 1.0 7, 9. değerler) yanıtlarının eksik veri (NaN) olarak ele alınması.
-   * İkili yanıtlara sahip değişken değerlerinin, öğrenme performansı açısından 1 ve 0'lar şeklinde yeniden değiştirilmesi.
-   * Hedef değişkenin (kanser tanısı / tarama durumu) belirlenmesi ve sınıf dengesizliklerinin (Cost-Sensitive Learning, ) giderilmesi.
-4. **Modelleme:** Tabular verilerde yüksek performans gösteren Lojistik Regresyon, Bayesyen Yaklaşım ve Yapay Sinir Ağları kullanılarak oluşturulan modellerin eğitilmesi:
-5. **Değerlendirme (Evaluation):** Modeller; Doğruluk (Accuracy), Hassasiyet (Precision), Duyarlılık (Recall), F1-Skoru ve ROC-AUC metrikleri ile istatistiksel olarak ölçülmüş ve birbirleriyle kıyaslanmıştır.
+3. **Data Reading and Transformation:**
+   * Handling "Don't know/Refused" responses (see figure 1.0, values 7 and 9) specific to BRFSS as missing data (NaN).
+   * Remapping variable values with binary responses as 1s and 0s for learning performance.
+   * Determining the target variable (cancer diagnosis / screening status) and addressing class imbalances (Cost-Sensitive Learning).
+4. **Modeling:** Training the models built using Logistic Regression, Bayesian Approach, and Artificial Neural Networks, which show high performance on tabular data.
+5. **Evaluation:** Models were statistically measured and compared against each other using Accuracy, Precision, Recall, F1-Score, and ROC-AUC metrics.
 ---
 
-## Mimari
+## Architecture
 ```
 cancer-screening-ml-project/
 │
-├── data/               # CDC BRFSS ham ve düzenlenmiş (.csv) veri setleri
-├── notebooks/          # Veri Analiz Bulguları (EDA) ve prototip modelleme Jupyter Notebook'ları
-├── src/                # Model pipeline, veri ön işleme, eğitim ve tahmin Python betikleri
-├── docs/               # Araştırma raporu, proje yönergeleri, CDC Codebook
-├── variables_codebook/ # Veri mimarlarınca Codebook'dan ekran görüntüsü alınmış anket verileri
-├── .gitignore          # Git takibinden dışlanacak gereksiz ve büyük dosyalar
-├── .gitkeep            # Boş klasör yapılarının korunması için komut
-├── README.md           # Proje tanıtımı
-├── requirements.txt    # Python betikleri için gerekli kütüphanele
-└── extras              # Proje hakkında ekstra bilgilendirmeler
+├── data/               # CDC BRFSS raw and cleaned (.csv) datasets
+├── notebooks/          # Exploratory Data Analysis (EDA) and prototype modeling Jupyter
+├── src/                # Model pipeline, data preprocessing, training, and prediction Python scripts
+├── docs/               # Research report, project guidelines, CDC Codebook
+├── variables_codebook/ # Screenshot survey data taken from the Codebook by data architects
+├── .gitignore          # Files to be excluded from Git tracking (large and unnecessary files)
+├── .gitkeep            # Command to maintain empty folder structures
+├── README.md           # Project introduction
+├── requirements.txt    # Required libraries for Python scripts
+└── extras              # Extra information about the project
 ```
 ---
-## Kurulum ve Kullanım
-1. **Repoyu Klonlayın ve Kütüphaneleri Yükleyin:**
+## Installation and Usage
+1. **Clone the Repo and Install Libraries:**
   ```
   git clone [https://github.com/KULLANICI_ADI/cancer-screening-ml-project.git](https://github.com/KULLANICI_ADI/cancer-screening-ml-project.git)
   cd cancer-screening-ml-project
   pip install -r requirements.txt
   ```
-2. **Veri Setini Ekleyin:**
-  Dosya boyutu kısıtlamaları nedeniyle veri seti GitHub'da yoktur. data/drive.txt içindeki bağlantıdan X_train, X_test, y_train ve y_test dosyalarını indirip data/ klasörüne koyun.
+2. **Add the Dataset:**
+  Due to file size limitations, the dataset is not available on GitHub. Download the X_train, X_test, y_train, and y_test files from the link inside data/drive.txt and place them into the data/ folder.
   
 3. **Modelleri Çalıştırın:**
   Modelleri baştan eğitmek için src/ klasöründeki betikleri kullanabilirsiniz:
@@ -130,7 +126,7 @@ cancer-screening-ml-project/
   python src/logistic_regression.py
   python src/naive_bayes.py
   python src/ann_model_training.py
-  (Not: Hazır sonuçları ve grafikleri görmek için notebooks/ klasöründeki Jupyter dosyalarını inceleyebilirsiniz.)
+  (Note: You can examine the Jupyter files in the notebooks/ folder to see ready-to-view results and graphs.)
   ```
 
 
