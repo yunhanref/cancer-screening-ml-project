@@ -113,7 +113,7 @@ cancer-screening-ml-project/
 ## Installation and Usage
 1. **Clone the Repo and Install Libraries:**
   ```
-  git clone [https://github.com/KULLANICI_ADI/cancer-screening-ml-project.git](https://github.com/KULLANICI_ADI/cancer-screening-ml-project.git)
+  git clone https://github.com/yunhanref/cancer-screening-ml-project.git
   cd cancer-screening-ml-project
   pip install -r requirements.txt
   ```
