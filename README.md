@@ -40,7 +40,7 @@ Here are my specific technical contributions to the Cancer Screening ML Project:
     * Developed and fine-tuned a Logistic Regression classifier, one of the three primary predictive models evaluated in this study.
     * Configured model hyperparameters and threshold values to optimize for clinical detection contexts.
 
-## 👤 My Role Models Performance
+## 👤 My Models Performance
 <div align="center">
   <img alt="lr_confusion" src="confusion_matrix_cancer_screening_ml.png" />
 </div>  
