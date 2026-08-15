@@ -42,7 +42,7 @@ Here are my specific technical contributions to the Cancer Screening ML Project:
 
 ## 👤 My Models Performance
 <div align="center">
-  <img alt="lr_confusion" src="confusion_matrix_cancer_screening_ml.png" />
+  <img alt="lr_confusion" src="confusion_matrix_viridis_dark1.png" />
 </div>  
 
 ## Data Set: 2024 CDC BRFSS
